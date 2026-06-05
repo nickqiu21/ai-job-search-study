@@ -23,6 +23,9 @@ ai-job-search-study/
 │   ├── h3_deterrence_analysis.ipynb      # H3: Detection confidence and deterrence
 │   ├── h4_experience_normalization.ipynb # H4: Interview experience and normalization
 │   └── h5_human_ai_divergence.ipynb      # H5: Human-agent distributional divergence
+├── Survey Instrument/
+│   ├── Thesis_Main_Survey.qsf            # Qualtrics survey file (importable into Qualtrics)
+│   └── Thesis_Main_Survey.docx           # Human-readable version of the full questionnaire
 ├── LICENSE
 └── README.md
 ```
@@ -65,6 +68,17 @@ Tests whether greater prior interview experience is associated with higher norma
 Examines systematic divergence between human respondents and AI agents across all survey items. Computes mean divergence and variance ratios for each item, grouped by social contingency type. This notebook draws on outputs from all four preceding analyses and produces the summary figure (Figure 9 in the paper).
 
 ---
+
+## Survey Instrument
+
+### `Thesis_Main_Survey.qsf`
+The complete Qualtrics survey file. This can be imported directly into Qualtrics to recreate the exact survey as administered, including block structure, question ordering, branching logic, and the raffle entry redirect. To import: log into Qualtrics, create a new project, and select "Import a QSF file."
+
+### `Thesis_Main_Survey.docx`
+A human-readable version of the full questionnaire, showing all question text, response options, and block organization. Equivalent to Appendix A.1 in the paper. Useful for reviewing the instrument without a Qualtrics account.
+
+---
+
 
 ## Requirements
 
